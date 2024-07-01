@@ -1,0 +1,19 @@
+<div class="row d-flex justify-content-center mt-100 mb-100">
+  <div class="col-lg-6">
+     <div class="card">
+         <div class="card-body text-center">
+             <h4 class="card-title m-b-0">Lista de Tareas</h4>
+         </div>
+         <ul class="list-style-none">
+            <li *ngFor="let t of tareas" class="d-flex no-block card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="tarea01">
+                <label class="form-check-label" for="tarea01">
+                  {{ t }}
+                </label>
+              </div>
+            </li>
+      </ul>
+  </div>
+ </div>
+ </div>
